@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16949" started-at="2018-08-02T16:44:07Z" finished-at="2018-08-02T16:44:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16949" started-at="2018-08-02T16:44:07Z" finished-at="2018-08-02T16:44:24Z">
+      <class name="tests.LogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LogInTest@3043fe0e]" name="setUp" is-config="true" duration-ms="4923" started-at="2018-08-02T16:44:07Z" finished-at="2018-08-02T16:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validUsernameInvalidPasswordLessThan6char()[pri:0, instance:tests.LogInTest@3043fe0e]" name="validUsernameInvalidPasswordLessThan6char" duration-ms="3156" started-at="2018-08-02T16:44:12Z" finished-at="2018-08-02T16:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPasswordLessThan6char -->
+        <test-method status="PASS" signature="validUsernameInvalidPassword6char()[pri:1, instance:tests.LogInTest@3043fe0e]" name="validUsernameInvalidPassword6char" duration-ms="976" started-at="2018-08-02T16:44:15Z" finished-at="2018-08-02T16:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword6char -->
+        <test-method status="PASS" signature="invalidUsernameValidPassword()[pri:2, instance:tests.LogInTest@3043fe0e]" name="invalidUsernameValidPassword" duration-ms="918" started-at="2018-08-02T16:44:16Z" finished-at="2018-08-02T16:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method status="PASS" signature="invalidUsernameinvalidPasswordLessThan6char()[pri:3, instance:tests.LogInTest@3043fe0e]" name="invalidUsernameinvalidPasswordLessThan6char" duration-ms="924" started-at="2018-08-02T16:44:17Z" finished-at="2018-08-02T16:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPasswordLessThan6char -->
+        <test-method status="PASS" signature="invalidUsernameinvalidPassword6char()[pri:4, instance:tests.LogInTest@3043fe0e]" name="invalidUsernameinvalidPassword6char" duration-ms="937" started-at="2018-08-02T16:44:18Z" finished-at="2018-08-02T16:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameinvalidPassword6char -->
+        <test-method status="PASS" signature="blankUsernameCorrectPassword()[pri:5, instance:tests.LogInTest@3043fe0e]" name="blankUsernameCorrectPassword" duration-ms="682" started-at="2018-08-02T16:44:19Z" finished-at="2018-08-02T16:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameCorrectPassword -->
+        <test-method status="PASS" signature="blankUsernameIncorrectPassword()[pri:6, instance:tests.LogInTest@3043fe0e]" name="blankUsernameIncorrectPassword" duration-ms="676" started-at="2018-08-02T16:44:20Z" finished-at="2018-08-02T16:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameIncorrectPassword -->
+        <test-method status="PASS" signature="correctUsernameBlankPassword()[pri:7, instance:tests.LogInTest@3043fe0e]" name="correctUsernameBlankPassword" duration-ms="834" started-at="2018-08-02T16:44:20Z" finished-at="2018-08-02T16:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctUsernameBlankPassword -->
+        <test-method status="PASS" signature="incorrectUsernameBlankPassword()[pri:8, instance:tests.LogInTest@3043fe0e]" name="incorrectUsernameBlankPassword" duration-ms="816" started-at="2018-08-02T16:44:21Z" finished-at="2018-08-02T16:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsernameBlankPassword -->
+        <test-method status="PASS" signature="blankUsernameBlankPassword()[pri:9, instance:tests.LogInTest@3043fe0e]" name="blankUsernameBlankPassword" duration-ms="552" started-at="2018-08-02T16:44:22Z" finished-at="2018-08-02T16:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameBlankPassword -->
+        <test-method status="PASS" signature="correctUsernameCorrectPassword()[pri:10, instance:tests.LogInTest@3043fe0e]" name="correctUsernameCorrectPassword" duration-ms="1220" started-at="2018-08-02T16:44:23Z" finished-at="2018-08-02T16:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctUsernameCorrectPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LogInTest@3043fe0e]" name="tearDown" is-config="true" duration-ms="284" started-at="2018-08-02T16:44:24Z" finished-at="2018-08-02T16:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
